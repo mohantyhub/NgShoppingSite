@@ -1,0 +1,30 @@
+git config --unset-all --global user.name
+git config --unset-all --global user.email
+
+
+git config --global user.name “<name>”  
+
+git config --global user.email “<email address>”  
+
+git init <repository name>
+git credential-manager reject <url>
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mohantyhub/NgShoppingSite.git
+git push -u origin master
+
+git remote add origin https://github.com/mohantyhub/NgShoppingSite.git
+git push -u origin master
+
+git config --global user.name "username"
+git config --global user.email "email"
+git init
+git add --all
+git add *
+git commit -m "<msg>"
+git push
+git status
+git diff
+git log
